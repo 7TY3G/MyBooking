@@ -1,0 +1,28 @@
+﻿@model List<MyBooking.Models.BookingModel>
+
+@{
+    ViewBag.Title = "Bookings";
+}
+
+<h2>Bookings</h2>
+
+<div>
+    <p>@Html.ActionLink("Add new booking", "Create", "Bookings")</p>
+
+</div>
+<div>
+    <table>
+        <tr>
+            <td>Name</td>
+            <td>Staff</td>
+            <td>Time</td>
+        </tr>
+        @foreach(MyBooking.Models.BookingModel booking in Model) {
+            <tr>
+                <td>@booking.CustomerName</td>
+                <td>@booking.StaffId</td>
+                <td>@booking.BookingDateTime</td>
+            </tr>
+        }
+    </table>
+</div>

@@ -1,0 +1,111 @@
+﻿
+header {
+    left: 0px;
+    top: 0px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    height: 80px;
+    background-color: lightblue; 
+}
+
+header .content-wrapper {
+    padding-top: 20px; 
+}
+
+footer {
+    position: relative;
+    clear: both;
+    background-color: #e2e2e2;
+    font-size: .8em;
+    height: 100px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+
+/* login
+----------------------------------------------------------*/
+#login {
+    display: block;
+    font-size: .85em;
+    margin: 0 0 10px;
+    text-align: right;
+    float: right;
+}
+
+#login a {
+    color: #999;
+    margin-left: 10px;
+    margin-right: 3px;
+    padding: 2px 3px;
+    text-decoration: none;
+}
+
+#login a.username {
+    background: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: underline;
+}
+
+#login ul {
+    margin: 0;
+}
+
+#login li {
+    display: inline;
+    list-style: none;
+}
+
+
+/* menu
+----------------------------------------------------------*/
+ul#menu {
+    font-size: 1.3em;
+    font-weight: 600;
+    margin: 0 0 10px;
+    padding: 0;
+    text-align: center;
+}
+
+ul#menu li {
+    display: inline;
+    list-style: none;
+    padding-left: 15px;
+}
+
+ul#menu li a {
+    background: none;
+    color: #999;
+    text-decoration: none;
+}
+
+ul#menu li a:hover {
+    color: #333;
+    text-decoration: none;
+}
+
+/* site title
+----------------------------------------------------------*/
+/*.site-title {
+    color: #c8c8c8;
+    font-family: Rockwell, Consolas, "Courier New", Courier, monospace;
+    font-size: 2.3em;
+    margin: 0;
+}
+
+.site-title a, .site-title a:hover, .site-title a:active {
+    background: none;
+    color: #c8c8c8;
+    outline: none;
+    text-decoration: none;
+}*/
+
+#content {
+    position: relative;
+    margin-bottom: 100px;
+    top: 80px;
+    height: 100%;
+}
